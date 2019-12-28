@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container" >
+  <view class="title-swiper">
+    <view class="title-swiper-item">关注</view>
+    <view class="title-swiper-item">食谱</view>
+    <view class="title-swiper-item">推荐</view>
+    <view class="title-swiper-item">时尚美妆</view>
+    <view class="title-swiper-item">生活</view>
+  </view>
+ <view class="swipers-warp" bindtouchstart="startEvent" bindtouchmove="moveEvent" bindtouchend="endEvent" >
+  <view class="swipers" animation="{{animationData}}">
+    <view class="item1">1</view>
+    <view class="item2">2</view>
+    <view class="item3">3</view>
+    <view class="item4">4</view>
+    <view class="item5">5</view>
+  </view>
+ </view>
+</view>

@@ -1,0 +1,45 @@
+/**index.wxss**/
+.item1{
+  background: orange;
+  width: 100%;
+}
+.item2{
+  background: lemonchiffon;
+  width: 100%;
+}
+.item3{
+  background: olivedrab;
+  width: 100%;
+}
+.item4{
+  background: paleturquoise;
+  width: 100%;
+}
+.item5{
+  background: aquamarine;
+  width: 100%;
+}
+.title-swiper{
+  height: 60rpx;
+  display: flex;
+  background: #5dd766;
+}
+.title-swiper-item{
+  font-size: 30rpx;
+  color: #ffffff;
+  flex: 1;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+}
+.swipers{
+  display: flex;
+  height: 240rpx;
+  width: 3750rpx;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.swipers-warp{
+  width: 100%;
+  overflow: hidden;
+}
